@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Web courses for HTML">
+    <meta name="author" content="Mehtap Y.">
+    <title>Contact Form</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <table id=headernav1 style="border-collapse: separate; background-color:gainsboro;" width=100%>
+                <tr>
+                    <td width=50%>
+                        <img src="./logo.png" alt="HiCoders">
+                    </td>
+                    <td width=50% style="text-align: right;">
+                        <a href="./homepage.html">Home</a>
+                        <a href="./contact.html">Contact</a>
+                    </td>
+                </tr>              
+            </table>
+        </nav> 
+    </header>
+
+    <hr>
+
+    <main>
+
+    <section>
+
+    <table style="background-color: darkgrey; margin-left: 25%; margin-right: 25%; " >
+            <tr style="margin-left: 10px;">
+                <td><p><h1>The HiCoders Welcomes You!</h1></p>
+                    <p>We are experienced software engineers.We volunturaliy help people who are interested in IT and run variouse courses for this purpose.If you are interested in our course,do not hesitate to contact us!</p>
+                </td>
+            </tr>
+        
+        <form id=form1 action="" method="POST">
+        
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend>Personal Information</legend> 
+                        <label for="firstname">Firstname</label><br>
+                        <input type="text" name="firstname" placeholder="Please enter your firstname"><br>
+                        <label for="lastname">Lastname</label><br>
+                        <input type="text" name="lastname" placeholder="Please enter your lastname"><br>
+                        <label for="email">Email</label><br>
+                        <input type="email" name="email placeholder=Please enter your email"><br>
+                        <label for="gender">Gender</label><br>
+                        <input type="radio" name="gender" checked >Woman <br>
+                        <input type="radio" name="gender" >Male <br>
+                        <label for="phone">Phone</label><br>
+                        <input type="tel" name="phone"><br>
+                        <label for="graduation"></label><br>
+                        <select name="graduation" id="graduation" size="4" multiple>
+                            <option value="1" selected>PhD.</option>
+                            <option value="2">Master</option>
+                            <option value="3">Bachelor</option>
+                            <option value="4">Association</option>
+                        </select><br>
+                        <label for="textarea1">What do you expect from this course?</label><br>
+                        <textarea name="textarea1" id="textarea1" cols="50" rows="10"></textarea><br>
+                        <label for="textarea2">What do you want to learn programming?</label><br>
+                        <textarea name="textarea2" id="textarea2" cols="50" rows="10"></textarea>
+                    </fieldset>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend>Family Members</legend>                    
+                        <label for="">Are you married?</label><br>
+                        <input type="radio" name="married" id="mar1">Yes <br>
+                        <input type="radio" name="married" id="mar2">No <br>
+                        <label for="maryes">If you married,how many child do you have?</label><br>
+                        <input type="number" placeholder="Enter number of children!">
+                    </fieldset>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend>Confirmation and Application</legend>
+                        <label for="">Which one are you familiar with?</label> <br>
+                        <input type="checkbox" name="html" value="1">HTML <br>
+                        <input type="checkbox" name="css" value="2">CSS <br>
+                        <input type="checkbox" name="bootstrap" value="3">Bootstrap <br>
+                        <input type="checkbox" name="javascript" value="4">JavaScript <br>
+                        <input type="checkbox" name="nodejs" value="5">NodeJS <br>
+                        <input type="checkbox" name="reactjs" value="5">ReactJS <br>
+                        Add your CV <br>
+                        <input type="file" name="file1" id="file1"><br>
+                        <input type="checkbox" name="accept" id="accept">Please confirm by ticking the box after reading the 
+                        <u style="text-decoration: blue;">privacy terms and conditions!</u><br>
+                        <input type="submit" name="tamam" value="Submit">
+                    </fieldset>
+                </td>
+            </tr>
+        </form>
+    </table>
+        
+        
+    </section>
+    </main> 
+
+    <footer>
+        <table id=tablofoot style="table-layout: fixed; width: 100%; border-color: black; border-style: solid; background-color: gainsboro;">
+            <tr>
+                <td width=50% style="text-align: center;"> Our Course Phases
+                    <ul style="list-style-type:circle; list-style-position:inside;">
+                        <li>Web Fundamentals</li>
+                        <li>Web Programming</li>
+                        <li>Fullstack Web Programming</li>
+                        <li>Capstone Project</li>
+                    </ul>
+                </td>
+                <td width=70% style="text-align:center ;">Contact
+                    <ul style="list-style-position:inside; list-style-type: none;">
+                        <li><a href="info@hicoders.ch">&#128231;info@hicoders.ch</a></li>
+                        <li><a href="41009001010"></a>&phone;+41009001010</li>
+                        <li>🏠Schaffhauserstrasse 470,</li>
+                        <li>8052 Zürich</li>
+                    </ul>
+               </td>
+            </tr>
+        </table>
+    </footer>
+    
+</body>
+</html>
+
